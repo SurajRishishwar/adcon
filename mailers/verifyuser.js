@@ -1,5 +1,5 @@
 const nodeMailer= require('../config/nodemailer');
-const accesstoken = require('../models/verifiedtokens');
+const accesstoken = require('../Models/verifiedtokens');
 
 
 exports.newuserverify = (user,access,name)=>{
